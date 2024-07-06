@@ -18,7 +18,11 @@ Prepare Your KML File: Place the KML file you want to edit in a convenient locat
 
 `python kml_editor`
 
-**Modify Width (Optional)**: If you want to change the default width from 5 to something else, update the following line in the script: line_style = line_style.replace('', '\t\t\t5\n\t\t')
+**Modify Width (Optional)**:
+
+If you want to change the default width from 5 to something else, update the following line in the script: 
+
+`line_style = line_style.replace('', '\t\t\t5\n\t\t')`
 
 **Feel Free to Contribute**
 
